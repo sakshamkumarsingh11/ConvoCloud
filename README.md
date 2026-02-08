@@ -51,6 +51,15 @@ project-root/
 ```
 
 * **Root Directory**: The top-level folder of the repository (`ConvoCloud/`). Use this when deploying to platforms like Render.
+---
+## Tech Stack
+
+- **Frontend**: React, Context API, React Router
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (Mongoose)
+- **Real-time Communication**: Socket.IO (optional)
+- **Authentication**: JWT
+
 
 ## ⚙️ Getting Started
 
@@ -60,30 +69,15 @@ project-root/
 git clone https://github.com/sakshamkumarsingh11/ConvoCloud.git
 cd ConvoCloud
 ```
-
-## Tech Stack
-
-- **Frontend**: React, Context API, React Router
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB (Mongoose)
-- **Real-time Communication**: Socket.IO (optional)
-- **Authentication**: JWT
+### 2. Direct Use
+  ``` https://convocloud-5.onrender.com ```
 
 ---
 
-## 2 Installation
-
+##  Installation
 ### Backend
-
 ```bash
 cd backend
 npm install
-
-
 ## 🌐 Deployment
-
 * When deploying to **Render**, set the **Root Directory** to `.` (the current folder), unless your app code is inside a subfolder.
-
-## 🤝 Contributing
-
-Feel free to fork this repository and submit pull requests. Contributions, issues, and feature requests are welcome!
